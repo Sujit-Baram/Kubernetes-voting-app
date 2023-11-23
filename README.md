@@ -106,11 +106,11 @@ Clone the github repo
 git clone https://github.com/N4si/K8s-voting-app.git
 ```
 
-**Create devopssujit Namespace**
+**Create sujitdevops Namespace**
 ```
-kubectl create ns devopssujit
+kubectl create ns sujitdevops
 
-kubectl config set-context --current --namespace devopssujit
+kubectl config set-context --current --namespace sujitdevops
 ```
 
 **MONGO Database Setup**
